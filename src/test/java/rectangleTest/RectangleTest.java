@@ -1,4 +1,6 @@
-import org.example.Rectangle;
+package rectangleTest;
+
+import rectangle.Rectangle;
 
 public class RectangleTest {
     public static void main(String[] args) {

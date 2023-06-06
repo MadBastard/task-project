@@ -1,4 +1,4 @@
-package org.example;
+package rectangle;
 
 public class Rectangle {
     private double length = 1;
