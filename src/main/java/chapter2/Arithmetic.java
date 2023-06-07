@@ -7,9 +7,9 @@ public class Arithmetic {
         Scanner scanner = new Scanner(System.in);
         int a = scanner.nextInt();
         int b = scanner.nextInt();
-        System.out.println(a+b);
-        System.out.println(a-b);
-        System.out.println(a*b);
-        System.out.println(a/b);
+        System.out.println("Sum:" + (a + b));
+        System.out.println("Product:" + (a * b));
+        System.out.println("Difference:" + (a - b));
+        System.out.println("Quotient:" + (a / b));
     }
 }
