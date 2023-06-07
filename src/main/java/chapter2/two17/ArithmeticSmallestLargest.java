@@ -11,23 +11,24 @@ public class ArithmeticSmallestLargest {
         System.out.println("Sum:" + (a+b+c));
         System.out.println("Average:" + ((a*b*c)/3));
         System.out.println("Product:" + (a*b*c));
-        if (a>b && a>c){
-            System.out.println("These numbers is larger:" + a);
-        }
-        if (b>a && b>c){
-            System.out.println("These numbers is larger:" + b);
-        }
-        if (c>a && c>b){
-            System.out.println("These numbers is larger:" + c);
-        }
         if (a<b && a<c){
-            System.out.println("These numbers is smallest:" + a);
+            System.out.println("These number is smallest:" + a);
         }
         if (b<a && b<c){
-            System.out.println("These numbers is smallest:" + b);
+            System.out.println("These number is smallest:" + b);
         }
         if (c<a && c<b){
-            System.out.println("These numbers is smallest:" + c);
+            System.out.println("These number is smallest:" + c);
         }
+        if (a>b && a>c){
+            System.out.println("These number is larger:" + a);
+        }
+        if (b>a && b>c){
+            System.out.println("These number is larger:" + b);
+        }
+        if (c>a && c>b){
+            System.out.println("These number is larger:" + c);
+        }
+
     }
 }
