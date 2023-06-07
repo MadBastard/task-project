@@ -13,7 +13,7 @@ public class ComparingIntegers {
         if (a < b) {
             System.out.println("These numbers is larger:" + b);
         }
-        if (a==b){
+        if (a == b) {
             System.out.println("These numbers are equal:" + a);
         }
     }
